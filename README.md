@@ -3,7 +3,7 @@ My blog and repo for DIY Projects
 
 This repository serves two purposes:
 
-  1. It powers my blog diy.lithiumhead.com.
+  1. It powers my blog [diy.lithiumhead.com](https://diy.lithiumhead.com).
   2. It holds the source code and designs for projects that I make.
 
 My blog describes various DIY (Do-It-Yourself) projects that put together (or pulled apart)
@@ -33,7 +33,7 @@ Usually they are of 4 kinds:
 Folders
 -------
 
- - [docs](docs/README.md)
+ - [docs](https://diy.lithiumhead.com)
    Holds the blog posts
  - [common](common/README.md)
    Common files used in various projects (e.g. fritzing parts)
