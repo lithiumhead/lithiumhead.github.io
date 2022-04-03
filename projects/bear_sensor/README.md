@@ -10,16 +10,16 @@ Know more about Kirti's project:
  - [His paper](https://digitalcommons.usu.edu/hwi/vol15/iss1/24/)
 
 
-2022-04 Version 1 using BBC micro:bit
--------------------------------------
+# 2022-04 Version 1 using BBC micro:bit
+
 
 ![Fritzing Sketch](v1_microbit_relay_hooter/sketch.png?raw=true "Fritzing Sketch")
 
 The first version involves embedding BBC micro:bit in a wooden plank. Whenever a bear disturbs the wooden
 plank, a sketch running inside the micro:bit would detect that by continuously observing the accelerometer readings - tilting the plank would change the orientation of the micro:bit and hence change the output of the accelerometer.
 
-Parts List with links to local vendors
-~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~~
+## Parts List with links to local vendors
+
 
   - [BBC micro:bit V2](https://robu.in/product/bbc-micro-bit-v2-pocket-sized-single-board-computer/)
   - Generic MicroUSB Cable for programming and power (don't buy bad quality ones that dont have wires for data signals). Need two of thes: one for powering the micro:bit and other for powering the 5 volts relay.
