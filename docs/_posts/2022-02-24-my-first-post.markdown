@@ -6,6 +6,7 @@ categories: howto
 ---
 
 This first post describes the steps I followed to setup this site.
+(Last Updated: 2023-11-28 01:00:00 +0530)
 
 References
 ==========
@@ -32,9 +33,10 @@ Setting up from scratch and Publishing your First Post
     3. `git config --global user.email "me@email.com"`
 3. Install Github CLI
     1. `curl -fsSL https://cli.github.com/packages/githubcli-archive-keyring.gpg | sudo dd of=/usr/share/keyrings/githubcli-archive-keyring.gpg`
-    2. `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null`
-    3. `sudo apt update`
-    4. `sudo apt install gh`
+    2. `sudo chmod go+r /usr/share/keyrings/githubcli-archive-keyring.gpg`
+    3. `echo "deb [arch=$(dpkg --print-architecture) signed-by=/usr/share/keyrings/githubcli-archive-keyring.gpg] https://cli.github.com/packages stable main" | sudo tee /etc/apt/sources.list.d/github-cli.list > /dev/null`
+    4. `sudo apt update`
+    5. `sudo apt install gh -y`
 4. Setup Github Authentication
     1. `gh auth login`
     2. Follow on screen instructions
@@ -75,7 +77,7 @@ Setting up from scratch and Publishing your First Post
     4. Click Save
 13. [https://lithiumhead.github.io/](https://lithiumhead.github.io/) should now work and show a “Welcome to Jekyll!“ Post
 14. To add a post, create a markdown file for each new post in `lithiumhead.github.io/docs/_posts/` and commit and push to `gh-pages` branch.
-    Each markdown file needs to have certain [front matter](https://jekyllrb.com/docs/posts/) for it to be parsed properly by Jekyll.
+    Each markdown file needs to have certain [front matter](https://jekyllrb.com/docs/front-matter/) for it to be parsed properly by Jekyll.
     Here are the raw content of the markdown file behind this very post:
     [https://github.com/lithiumhead/lithiumhead.github.io/raw/gh-pages/docs/_posts/2022-02-24-my-first-post.markdown](https://github.com/lithiumhead/lithiumhead.github.io/raw/gh-pages/docs/_posts/2022-02-24-my-first-post.markdown)
 16. To test locally
