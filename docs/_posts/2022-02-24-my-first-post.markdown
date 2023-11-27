@@ -74,10 +74,13 @@ Seting up from scratch and Publishing your First Post
     3. And folder to `/docs`
     4. Click Save
 13. [https://lithiumhead.github.io/](https://lithiumhead.github.io/) should now work and show a “Welcome to Jekyll!“ Post
-14. To edit/add post, mess around with contents of markdown files in `lithiumhead.github.io/docs/_posts/`
-15. To test locally
+14. To add a post, create a markdown file for each new post in `lithiumhead.github.io/docs/_posts/` and commit and push to `gh-pages` branch.
+    Each markdown file needs to have certain [front matter](https://jekyllrb.com/docs/posts/) for it to be parsed properly by Jekyll.
+    Here are the raw content of the markdown file behind this very post:
+    [https://github.com/lithiumhead/lithiumhead.github.io/raw/gh-pages/docs/_posts/2022-02-24-my-first-post.markdown](https://github.com/lithiumhead/lithiumhead.github.io/raw/gh-pages/docs/_posts/2022-02-24-my-first-post.markdown)
+16. To test locally
     1. `bundle exec jekyll serve`
     2. Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in Browser
-16. To switch to a different theme check [this](https://pages.github.com/themes/) and [this](https://github.com/lithiumhead/lithiumhead.github.io/settings/pages)
+17. To switch to a different theme check [this](https://pages.github.com/themes/) and [this](https://github.com/lithiumhead/lithiumhead.github.io/settings/pages)
 
 
