@@ -62,7 +62,7 @@ Setting up from scratch and Publishing your First Post
     1. Open the Gemfile that Jekyll created (`nano Gemfile`)
     2. Add `#` to the beginning of the line that starts with `gem "jekyll"` to comment out this line.
     3. In place of that, add line: `gem "github-pages", "~> GITHUB-PAGES-VERSION", group: :jekyll_plugins`
-    4. Replace `GITHUB-PAGES-VERSION` in the above line with the version number from [here](https://pages.github.com/versions/). (It was 223 on 2022-02-24)
+    4. Replace `GITHUB-PAGES-VERSION` in the above line with the version number from [here](https://pages.github.com/versions/). (It was 228 on 2023-11-28)
     5. Save and close the Gemfile.
 11. Run Commands:
     1. `bundle install`
