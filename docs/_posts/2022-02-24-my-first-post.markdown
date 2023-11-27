@@ -66,10 +66,11 @@ Setting up from scratch and Publishing your First Post
     5. Save and close the Gemfile.
 11. Run Commands:
     1. `bundle install`
-    2. `git add .`
-    3. `git commit -m 'Initial GitHub pages site with Jekyll'`
-    4. `git remote add origin https://github.com/lithiumhead/lithiumhead.github.io`
-    5. `git push -u origin gh-pages`
+    2. `bundle add webrick # Solves https://github.com/github/pages-gem/issues/752`
+    3. `git add .`
+    4. `git commit -m 'Initial GitHub pages site with Jekyll'`
+    5. `git remote add origin https://github.com/lithiumhead/lithiumhead.github.io`
+    6. `git push -u origin gh-pages`
 12. Configure GitHub Pages settings for your repo
     1. Open browser and goto [https://github.com/lithiumhead/lithiumhead.github.io/settings/pages](https://github.com/lithiumhead/lithiumhead.github.io/settings/pages)
     2. Under Source, change to `gh-pages`
