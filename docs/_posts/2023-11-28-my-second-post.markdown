@@ -10,7 +10,7 @@ This post shows you how to clone your existing repo that has been previously bee
 References
 ==========
 
-* {% post_url 2022-02-24-my-first-post %}
+* [My First Post]({% post_url 2022-02-24-my-first-post %})
 
 Prerequisites
 =============
