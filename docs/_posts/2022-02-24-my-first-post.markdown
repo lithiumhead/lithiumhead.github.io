@@ -22,7 +22,7 @@ Prerequisites
 * Ubuntu Computer
 * Account on Github
 
-Seting up from scratch and Publishing your First Post
+Setting up from scratch and Publishing your First Post
 =====================================================
 
 1. Head over to GitHub.com in your browser and create a new **public** repository named username.github.io, where username is your username (or organization name) on GitHub. If the first part of the repository doesn’t exactly match your username, it won’t work, so make sure to get it right. Look [here](https://docs.github.com/en/pages/setting-up-a-github-pages-site-with-jekyll/creating-a-github-pages-site-with-jekyll#creating-a-repository-for-your-site) for screenshots. In my case this repo was https://github.com/lithiumhead/lithiumhead.github.io
