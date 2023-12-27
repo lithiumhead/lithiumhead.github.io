@@ -20,7 +20,7 @@
 
 title: Anurag's DIY & IoT Projects
 description: >- # this means to ignore newlines until "baseurl:"
-  I am an Engineer based in Pune, India. 
+  I am an Engineer based in Pune, India.
   These are some of my DIY & IoT projects.
 baseurl: "" # the subpath of your site, e.g. /blog
 url: "" # the base hostname & protocol for your site, e.g. http://example.com
@@ -28,7 +28,7 @@ twitter_username: duniyakashaana
 github_username:  lithiumhead
 
 # Build settings
-theme: minima
+theme: jekyll-theme-modernist
 plugins:
   - jekyll-feed
 
