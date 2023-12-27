@@ -21,16 +21,16 @@ Prerequisites
 
 * Your existing GitHub Pages repo cloned out on an Ubuntu Computer
 
-Cloning your existing repo and recreating the environment
-=========================================================
+Steps
+=====
 
 1. Open console and navigate to the `docs` sub-folder in your checked out repo (is `lithiumhead.github.io/docs/` in my case).
 2. Open `_config.yml` for editing. Look for `theme: minima` and change it to `theme: jekyll-theme-modernist` and save the file.
 3. Back at the bash prompt, run `bundle update` while still in the `docs` sub-folder.
    This will download all the themes supported by [GitHub pages](https://pages.github.com/themes/) locally to your computer.
-4. Try to render existing posts locally by issuing `bundle exec jekyll serve`.
-   You will get a build warning saying that the layouts for the types page, post and home are not known.
-   This is because if you look at the [GitHub repo](https://pages-themes.github.io/modernist/) for the modernist theme, you will realise that [_layouts](https://github.com/pages-themes/modernist/tree/master/_layouts) folder there only has default.html. So at this point we can open the affected markdown files and switch the layout for each of them to default or we can supply the html files for the page,post and home layout types manually. We will try the latter.
+4. Try to render existing posts locally by issuing `bundle exec jekyll serve`. You will get a build warning saying that the layouts for the types page, post and home are not known.  
+   This is because if you look at the [GitHub repo](https://pages-themes.github.io/modernist/) for the modernist theme, you will realise that [_layouts](https://github.com/pages-themes/modernist/tree/master/_layouts) folder there only has default.html.  
+   So at this point we can open the affected markdown files and switch the layout for each of them to default or we can supply the html files for the page, post and home layout types manually. We will try the latter.  
    Press ctrl+c to kill the server.
 5. Copy the `home` layout files from the (_layouts)[https://jekyll.github.io/minima/tree/master/_layouts] folder of the minima theme:
    1. At the console while still in the `docs` sub-folder, issue `mkdir _layouts`
