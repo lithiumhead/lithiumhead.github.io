@@ -2,7 +2,7 @@
 layout: post
 title:  "Switch the Jekyll theme on GitHub Pages from Minima to Modernist"
 date:   2023-12-27 18:40:00 +0530
-categories: howto
+categories: jekyll-howtos
 ---
 
 This post shows you how to switch the Jekyll theme on your existing GitHub Pages site

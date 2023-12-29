@@ -2,7 +2,7 @@
 layout: post
 title:  "My First Post on GitHub Pages with Jekyll"
 date:   2022-02-24 15:00:00 +0530
-categories: howto
+categories: jekyll-howtos
 ---
 
 This first post describes the steps I followed to setup this site.

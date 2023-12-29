@@ -2,7 +2,7 @@
 layout: post
 title:  "My Second Post on GitHub Pages with Jekyll"
 date:   2023-11-28 02:20:00 +0530
-categories: howto
+categories: jekyll-howtos
 ---
 
 This post shows you how to clone your existing repo that has been previously been setup to serve GiHub Pages and replicate the setup on a computer with freshly installed Ubuntu so that you can continue to add pages and publish to the same repo.
