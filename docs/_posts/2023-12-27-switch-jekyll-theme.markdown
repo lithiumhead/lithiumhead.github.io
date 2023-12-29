@@ -39,7 +39,24 @@ Steps
 6. For the `post` and `page` layout, let's just duplicate the `default` layout of the modernist theme, we can customize them later:
    1. `wget https://github.com/pages-themes/modernist/raw/master/_layouts/default.html -O post.html`
    2. `wget https://github.com/pages-themes/modernist/raw/master/_layouts/default.html -O page.html`
-7. Render locally
+7. Edit home.html to use the theme
+   1. Open home.html for editing and change
+      ```
+      ---
+      layout: base
+      ---
+      ```
+      
+      to  
+
+      ```
+      ---
+      layout: default
+      ---
+      ```
+      
+      and save.
+8. Render locally
    1. Navigate one level up back to `docs` : `cd ..`
    2. `bundle exec jekyll serve`
    3. Open [http://127.0.0.1:4000/](http://127.0.0.1:4000/) in Browser
